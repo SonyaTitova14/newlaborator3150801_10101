@@ -7,6 +7,22 @@ group_number = "3150801/10101"
 project_name = "Гидротехнический корпус 1"
 floors = 6 
 height = 18.0
-is_residential = True 
+is_residential = False 
 construction_year = 1923
 
+# Вывод информации о проекте в читаемом виде
+print("=== ПАСПОРТ СТРОИТЕЛЬНОГО ОБЪЕКТА ===")
+print(f"Составитель: {student_name}")
+print(f"Группа: {group_number}")
+
+print() #добавила пустую строку в соответствии с примером из задания
+
+print(f"Объект: {project_name}")
+print(f"Этажность: {floors} эт.")
+print(f"Высота: {height} м")
+print(f"Тип: {'Жилой' if is_residential else 'Нежилой'}")
+print(f"Год постройки: {construction_year}")
+
+# Комментарии к заданию:
+# Где находится: г. Санкт-Петербург, ул. Политехническая 29.
+# Почему выбран: любимый корпус университета.
