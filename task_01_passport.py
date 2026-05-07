@@ -4,8 +4,9 @@
 # Объявление переменных 
 student_name = "Титова Софья" 
 group_number = "3150801/10101" 
-project_name = "ЖК Ромашки"
-floors = 15 
-height = 45.0
+project_name = "Гидротехнический корпус 1"
+floors = 6 
+height = 18.0
 is_residential = True 
-construction_year = 2019
+construction_year = 1923
+
